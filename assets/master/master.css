@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind:wght@300&family=Noto+Naskh+Arabic&family=Outfit:wght@500&family=Playfair+Display:wght@600&family=Roboto:wght@300&display=swap");
+/* font-family: 'Hind', sans-serif;
+font-family: 'Noto Naskh Arabic', serif;
+font-family: 'Outfit', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Roboto', sans-serif; */
+body {
+  background: linear-gradient(45deg, #694b9e, #0c0116);
+}
+body li {
+  list-style-type: none;
+  color: #ffffff;
+}
+
+.container {
+  height: 100vh;
+}
+.container > section > h2 {
+  color: #c2c2c2;
+}
+.container > section > div > figure {
+  border-radius: 10px;
+}
+.container > section > div > figure > img {
+  border-radius: 10px;
+  cursor: pointer;
+}
+.container > section > div:nth-of-type(1) > div > section:nth-of-type(1) {
+  box-shadow: 0px 0px 2px 2px #ffffff;
+  border-radius: 10px;
+}
+.container > section > div:nth-of-type(1) > div > section:nth-of-type(1) > span {
+  color: #c2c2c2;
+  font-family: "Hind", sans-serif;
+  font-size: 20px;
+}
+.container > section > div:nth-of-type(1) > div > section:nth-of-type(1) > div:nth-of-type(1) > .active {
+  background-color: #1570b0;
+}
+.container > section > div:nth-of-type(1) > div > section:nth-of-type(1) > div:nth-of-type(1) > button {
+  border: none;
+  height: 50px;
+  border-radius: 15px;
+  font-family: "Hind", sans-serif;
+  font-size: 18px;
+  transition: 0.4s;
+  background-color: #c2c2c2;
+}
+.container > section > div:nth-of-type(1) > div > section:nth-of-type(1) > div:nth-of-type(1) > button:hover {
+  background-color: #063c06;
+  color: #c2c2c2;
+  box-shadow: 0 0 2px #ffffff;
+}
+.container > section > div:nth-of-type(1) > div > section:nth-of-type(1) > div:nth-of-type(2) > input {
+  accent-color: #5372f0;
+}
+.container > section > div:nth-of-type(1) > div > section:nth-of-type(1) > div:nth-of-type(2) > section > p {
+  color: #c2c2c2;
+  font-family: "Hind", sans-serif;
+  font-size: 20px;
+}
+.container > section > div:nth-of-type(1) > div > section:nth-of-type(2) > span {
+  color: #c2c2c2;
+  font-size: 20px;
+  font-family: "Hind", sans-serif;
+}
+.container > section > div:nth-of-type(1) > div > section:nth-of-type(2) > ul > li {
+  font-size: 35px;
+  cursor: pointer;
+}
+.container > section > div:nth-of-type(2) > section:nth-of-type(1) > button {
+  border: none;
+  height: 50px;
+  border-radius: 15px;
+  font-family: "Hind", sans-serif;
+  font-size: 18px;
+  transition: 0.4s;
+  background-color: #ffffff;
+}
+.container > section > div:nth-of-type(2) > section:nth-of-type(1) > button:hover {
+  background-color: #d50d0d;
+  color: #c2c2c2;
+  box-shadow: 0 0 2px #ffffff;
+}
+.container > section > div:nth-of-type(2) > section:nth-of-type(2) > div > button {
+  border: none;
+  height: 50px;
+  border-radius: 15px;
+  font-family: "Hind", sans-serif;
+  font-size: 18px;
+  transition: 0.4s;
+  background-color: #ffffff;
+}
+.container > section > div:nth-of-type(2) > section:nth-of-type(2) > div > button:hover {
+  background-color: #063c06;
+  color: #c2c2c2;
+  box-shadow: 0 0 2px #ffffff;
+}
+.container > section > div:nth-of-type(2) > section:nth-of-type(2) > div > button:nth-of-type(2) {
+  background-color: #1570b0;
+}
+.container .disable .editor-panel,
+.container .container.disable .controls .reset-filter,
+.container .container.disable .controls .save-img {
+  opacity: 0.5;
+  pointer-events: none;
+}/*# sourceMappingURL=master.css.map */
